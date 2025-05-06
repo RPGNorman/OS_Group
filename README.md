@@ -20,13 +20,8 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
-Contents of requirements.txt:
+'''
 
-Copy
-Edit
-opencv-python
-albumentations
-matplotlib
 Make sure you're using Python 3.7+.
 
 💻 Setting Up in Visual Studio Code
@@ -45,9 +40,6 @@ Select: Git: Clone
 
 Enter the repository URL:
 
-arduino
-Copy
-Edit
 https://github.com/RPGNorman/OS_Group/
 Choose a folder to clone into
 
@@ -55,15 +47,13 @@ When prompted, click Open to open the cloned project in VS Code
 
 🧪 How to Use
 📁 Directory Structure
-bash
-Copy
-Edit
 OS_Group/
 ├── Input_Images/           # Put your input images here
 ├── Augmented_Images/       # Output images will be saved here
 ├── main.py                 # Main script to run
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+
 🚀 Running the Script
 Place your original images inside the Input_Images/ folder.
 
@@ -71,10 +61,9 @@ Open a terminal in VS Code (Ctrl + `)
 
 Run the script:
 
-bash
-Copy
-Edit
+'''bash
 python main.py
+'''
 The script will:
 
 Run two experiments: one sorting images from largest to smallest, and one from smallest to largest
@@ -99,7 +88,9 @@ If an image fails to load, a warning will print but the script will continue.
 
 All augmented images are saved with a prefix like aug_0_, aug_1_, etc.
 
-You can adjust transformations in the transforms list in script.py.
+You can adjust transformations in the transforms list in main.py.
+
+You can alter the number of images transformed by manually adding or removing images.
 
 🧹 Cleanup
 To start fresh:
