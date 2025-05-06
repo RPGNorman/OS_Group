@@ -47,7 +47,7 @@ Choose a folder to clone into
 When prompted, click Open to open the cloned project in VS Code
 
 
-🧪 How to Use
+## 🧪 How to Use
 
 📁 Directory Structure
 
@@ -64,7 +64,7 @@ OS_Group/
 └── README.md               # This file
 
 
-🚀 Running the Script
+## 🚀 Running the Script
 
 Place your original images inside the Input_Images/ folder.
 
@@ -86,7 +86,7 @@ Save outputs in Augmented_Images/<original_image_name>/
 Plot and display processing time per process count
 
 
-📊 Output Example
+## 📊 Output Example
 
 You’ll see a plot like this after execution:
 
@@ -97,7 +97,7 @@ Y-axis: Time taken in seconds
 Curves: Time for different image orderings
 
 
-⚠️ Notes
+## ⚠️ Notes
 
 If an image fails to load, a warning will print but the script will continue.
 
@@ -107,7 +107,7 @@ You can adjust transformations in the transforms list in main.py.
 
 You can alter the number of images transformed by manually adding or removing images.
 
-🧹 Cleanup
+## 🧹 Cleanup
 
 To start fresh:
 
