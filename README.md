@@ -20,7 +20,7 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
-'''
+```
 
 Make sure you're using Python 3.7+.
 
@@ -63,7 +63,7 @@ Run the script:
 
 '''bash
 python main.py
-'''
+```
 The script will:
 
 Run two experiments: one sorting images from largest to smallest, and one from smallest to largest
