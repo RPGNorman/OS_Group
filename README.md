@@ -61,7 +61,7 @@ Open a terminal in VS Code (Ctrl + `)
 
 Run the script:
 
-'''bash
+```bash
 python main.py
 ```
 The script will:
