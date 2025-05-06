@@ -75,6 +75,7 @@ Save outputs in Augmented_Images/<original_image_name>/
 Plot and display processing time per process count
 
 📊 Output Example
+
 You’ll see a plot like this after execution:
 
 X-axis: Number of processes (1 to 16)
@@ -84,6 +85,7 @@ Y-axis: Time taken in seconds
 Curves: Time for different image orderings
 
 ⚠️ Notes
+
 If an image fails to load, a warning will print but the script will continue.
 
 All augmented images are saved with a prefix like aug_0_, aug_1_, etc.
@@ -93,6 +95,7 @@ You can adjust transformations in the transforms list in main.py.
 You can alter the number of images transformed by manually adding or removing images.
 
 🧹 Cleanup
+
 To start fresh:
 
 Delete all contents inside Augmented_Images/
